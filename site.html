@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu portifólio Unreal Engine 5.4</title>
+    <link rel="stylesheet" href="site.css">
+    <script src="site.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Criação de Mundos & Personagens</h1>
+        <p>Unreal Engine 5.4 | Modelagem Autoral</p>
+
+    </header>
+   <div class="container">
+    <section class="intro">
+        <h2>Bem vindo ao meu Portifólio</h2>
+        <p>Focado em florestas, lagos, montanhas e personagens criados do zero.</p>
+    </section>
+    <main class="gallery">
+        <div class="gallery-item">
+    <div class="slider-container">
+        <div class="slides">
+            <img src="IMAGENS/LagoMontanha.jpeg" alt="">
+            <img src="IMAGENS/Montanha.jpeg" alt="">
+            <img src="IMAGENS/Montanha2.jpeg" alt="">
+        </div>
+        <button class="prev" onclick="moveSlide(this, -1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(this, 1)">&#10095;</button>
+    </div>
+
+    <div class="info">
+        <h3>Bioma da Montanha</h3>
+        <p>Vários ângulos do cenário no UE 5.4.</p>
+    </div>
+</div>
+       <div class="gallery-item">
+    <div class="slider-container">
+        <div class="slides">
+            <img src="IMAGENS/AreiaLago.jpeg" alt="Vista Geral">
+            <img src="IMAGENS/Lago.jpeg" alt="Detalhe da Vegetação">
+            <img src="IMAGENS/Lago2.jpeg" alt="Iluminação Noturna">
+        </div>
+        <button class="prev" onclick="moveSlide(this, -1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(this, 1)">&#10095;</button>
+    </div>
+
+    <div class="info">
+        <h3>Bioma do Lago</h3>
+        <p>Vários ângulos do cenário no UE 5.4.</p>
+    </div>
+</div>
+
+        <div class="gallery-item">
+    <div class="slider-container">
+        <div class="slides">
+            <img src="IMAGENS/Terra.jpeg" alt="Vista Geral">
+            <img src="IMAGENS/Lago2.jpeg" alt="Detalhe da Vegetação">
+            <img src="IMAGENS/Montanha2.jpeg" alt="Iluminação Noturna">
+        </div>
+        <button class="prev" onclick="moveSlide(this, -1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(this, 1)">&#10095;</button>
+    </div>
+
+    <div class="info">
+        <h3>Bioma do Local</h3>
+        <p>Vários ângulos do cenário no UE 5.4.</p>
+    </div>
+</div>
+
+    </main>
+
+   </div>
+   <footer>
+    <p>&copy; 2026 - Sérgio R. D. S. Júnior - Desenvolvido com HTML, CSS e JavaScript</p>
+
+   </footer>
+   <div id="lightbox" class="lightbox" onclick="this.style.display='none'">
+    <img id="lightbox-img" src="" alt="Imagem ampliada">
+
+   </div>
+</body>
+</html>
